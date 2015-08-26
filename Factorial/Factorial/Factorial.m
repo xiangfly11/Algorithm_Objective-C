@@ -14,8 +14,8 @@
 -(NSInteger) fac:(NSInteger)num {
     
     
-    if (num < 2) {
-        return num;
+    if (num == 0) {
+        return 1;
     }
     
     return num * [self fac:num - 1];
