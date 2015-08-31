@@ -10,4 +10,7 @@
 
 @interface MergeSort : NSObject
 
+-(void) mergeSortArr:(NSArray *) arr fromFirstIndex:(NSInteger) first toLastIndex:(NSInteger) last toFinalArr:(NSMutableArray *) finalArr ;
+
+
 @end
