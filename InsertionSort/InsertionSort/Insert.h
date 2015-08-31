@@ -10,4 +10,9 @@
 
 @interface Insert : NSObject
 
+-(void) inserSortArray: (NSArray *) numArray;
+
+
+
+
 @end

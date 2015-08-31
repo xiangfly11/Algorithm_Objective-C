@@ -7,11 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Insert.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        //NSLog(@"Hello, World!");
+        
+        
+        NSArray *num = [NSArray arrayWithObjects:@5,@3,@1,@2,nil];
+        
+        Insert *sort = [[Insert alloc] init];
+        
+        [sort inserSortArray:num];
+        
+        
+        
     }
     return 0;
 }
