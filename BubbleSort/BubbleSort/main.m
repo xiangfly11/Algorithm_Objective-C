@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BubbleSort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSArray *num = [NSArray arrayWithObjects:@5,@3,@1,@2,nil];
+        
+        BubbleSort *sort = [[BubbleSort alloc] init];
+        
+        [sort sortForArray:num];
     }
     return 0;
 }

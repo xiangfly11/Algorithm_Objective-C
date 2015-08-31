@@ -10,4 +10,6 @@
 
 @interface BubbleSort : NSObject
 
+-(void) sortForArray:(NSArray *) arr;
+
 @end
